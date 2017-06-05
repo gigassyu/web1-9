@@ -127,3 +127,21 @@ body{
     #BFE5F2 );
 }
 
+p.transition{
+  margin: 10px;
+}
+p.transition a{
+  background-color: mediumseagreen;
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+  padding: 5px;
+  transition: 1s 0s, color 1s 1s;
+}
+p.transition a:hover{
+  background-color: gold;
+  text-decoration: none;
+  padding: 5px;
+  color: black;
+}
+
