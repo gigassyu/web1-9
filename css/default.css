@@ -6,7 +6,8 @@
 }
 
 body{
-  background-image: url
+  background-image: url(../img/image1.JPG), url(../img/image2.JPG);
+  background-repeat: no-repeat, no-repeat;
   background-color: lightgrey;
   margin: 5px;
 }
